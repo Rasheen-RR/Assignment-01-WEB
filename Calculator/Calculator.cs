@@ -12,7 +12,7 @@ namespace Calculator
                 op = ""
             };
 
-            switch (op)
+            switch (op.ToLower())
             {
                 case "a":
                     result.result = num1 + num2;
